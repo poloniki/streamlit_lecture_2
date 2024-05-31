@@ -3,7 +3,7 @@ from openai import OpenAI
 
 client = OpenAI(api_key=st.secrets["API_KEY"])
 
-st.title("Angry investor")
+st.title("Angry investor: GPT powered")
 
 if prompt := st.chat_input("Pitch"):
     with st.chat_message("user"):
